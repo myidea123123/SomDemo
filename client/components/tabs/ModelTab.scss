@@ -1,0 +1,39 @@
+@import "./Tab.scss";
+
+:local(.tab) {
+  input[type = "number"] {
+    outline: none;
+    font: inherit;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    width: 30px;
+
+    line-height: 1em;
+
+    text-align: center;
+    margin: 0 2px;
+
+    /* Make this look like an ordinary text field */
+    -moz-appearance: textfield;
+
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+    }
+
+    &:focus {
+      border-bottom-color: #00bcd4;
+    }
+  }
+}
+
+:local(.control-with-label) {
+  span {
+    display: inline-block;
+    width: 80px;
+  }
+
+  input[type = "number"] {
+    width: 40px;
+  }
+}

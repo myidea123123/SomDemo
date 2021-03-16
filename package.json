@@ -1,0 +1,47 @@
+{
+  "name": "som-demo",
+  "version": "1.0.0",
+  "description": "Demo of self-organizing maps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dist": "npm run copy & webpack",
+    "copy": "copyfiles -f ./client/index.html ./dist",
+    "dev": "node ."
+  },
+  "author": "Alexander Rath",
+  "license": "MIT",
+  "dependencies": {
+    "@types/d3": "^4.5.0",
+    "@types/three": "^0.83.4",
+    "css-loader": "^0.26.2",
+    "d3": "^4.6.0",
+    "material-ui": "^0.17.0",
+    "monaco-editor": "^0.8.3",
+    "node-sass": "^4.5.0",
+    "numericjs": "^1.2.6",
+    "raw-loader": "^0.5.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-hot-loader": "^1.3.1",
+    "react-monaco-editor": "^0.8.1",
+    "react-tap-event-plugin": "^2.0.1",
+    "sass-loader": "^6.0.2",
+    "style-loader": "^0.13.2",
+    "three": "^0.84.0",
+    "ts-loader": "^2.0.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/material-ui": "^0.16.51",
+    "@types/react": "^15.0.12",
+    "@types/react-dom": "^0.14.23",
+    "@types/react-hot-loader": "^3.0.1",
+    "@types/react-tap-event-plugin": "0.0.30",
+    "@types/webpack": "^2.2.6",
+    "copy-webpack-plugin": "^4.0.1",
+    "copyfiles": "^1.2.0",
+    "typescript": "^2.2.1"
+  }
+}
